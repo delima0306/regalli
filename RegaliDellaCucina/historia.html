@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História | Regali</title>
+    <link rel="icon" href="./src/Imagens/LogoMarrom.jpg (1).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=Fraunces:ital,wght@1,400;1,500;1,600&family=Hanken+Grotesk:ital,wght@0,100;0,200;1,100&family=Josefin+Sans:ital,wght@0,100;1,100;1,300&family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,100;1,100&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@100;300;500&family=Russo+One&family=Water+Brush&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(./src/Imagens/background-menu.jpg);
+            background-position: center;
+
+            background-size: cover;
+        }
+
+        .container {
+            display: flex;
+            margin: 10px auto;
+            width: 80%;
+            justify-content: space-between;
+            height: 130px;
+
+        }
+
+        img {
+            width: 140px;
+
+        }
+
+        .setas {
+            width: 50px;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 35px
+        }
+
+        .setas:hover {
+            padding: 2px;
+        }
+
+
+        .content {
+            display: flex;
+            margin: 0 auto;
+
+        }
+
+        .galery1 {
+
+            width: 31vw;
+
+            height: 50vw;
+        }
+
+
+        .history {
+            text-align: center;
+
+            margin: 10% auto;
+            width: 34vw;
+            margin-right: 10px;
+        }
+
+
+        .galery2 {
+
+            width: 32vw;
+
+            height: 50vw;
+
+        }
+
+        .quadros {
+
+            height: 50%;
+
+            box-shadow: 20px 20px 57px #808080,
+                -20px -20px 57px #ffffff;
+        }
+
+        #ft1 {
+            background-image: url(./src/Imagens/prato1.jpg);
+            border-radius: 0px 50px 50px 0px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 30px;
+            /* border-radius: 50px;
+            box-shadow:  20px 20px 57px #808080,
+             -20px -20px 57px #ffffff; */
+        }
+
+        #ft2 {
+            background-image: url(./src/Imagens/prato.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 0px 50px 50px 0px;
+        }
+
+        #ft3 {
+            background-image: url(./src/Imagens/prato2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 30px;
+            border-radius: 50px 0px 0px 50px;
+        }
+
+        #ft4 {
+            background-image: url(./src/Imagens/prato3.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 50px 0px 0px 50px;
+        }
+
+        h1 {
+            font-family: 'Russo One', sans-serif;
+            margin: 0 auto;
+            max-width: 70%;
+            color: #413b33;
+            font-size: 60px;
+        }
+
+        h4 {
+            color: rgb(63, 47, 47);
+        }
+
+        p {
+            margin-top: 30px;
+        }
+
+       
+
+        @media screen and (max-width:670px) {
+
+            .container {
+
+                width: 95%;
+                justify-content: space-between;
+                height: 100px;
+
+            }
+
+            img {
+                width: 100px;
+
+            }
+
+            .setas {
+                width: 40px;
+                border: 1px solid black;
+                border-radius: 50%;
+                margin-top: 35px
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+
+            }
+
+            .galery1 {
+                margin-top: 20px;
+                width: 100%;
+                height: 70vw;
+            }
+
+
+            .history {
+
+                text-align: center;
+                margin: 25px auto;
+                width: 90%;
+
+            }
+            p{margin-bottom: 15px;}
+            
+
+
+            .galery2 {
+
+                margin-top: 10px;
+                width: 100%;
+                height: 70vw;
+            }
+
+            #ft1 {
+                display: none;
+            }
+
+            #ft2 {
+
+                box-shadow: 18px 21px 11px -1px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 18px 21px 11px -1px rgba(0, 0, 0, 0.75);
+                box-shadow: 18px 21px 11px -1px rgba(0, 0, 0, 0.75);
+                border-radius: 0 0 75px;
+                height: 100%;
+                position: relative;
+            }
+        
+
+        #ft3 {
+            display: none;
+        }
+
+        #ft4 {
+            height: 100%;
+            box-shadow: -12px -12px 11px -1px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: -12px -12px 11px -1px rgba(0, 0, 0, 0.75);
+            box-shadow: -12px -12px 11px -1px rgba(0, 0, 0, 0.75);
+            position: relative;
+            border-radius: 75px 0;
+        }
+    }
+    </style>
+
+</head>
+
+
+
+<body>
+    <header class="hisRegali">
+        <div class="container">
+            <a href="index.html"><img class="setas" src="./src/Imagens/download (1).png" alt="seta para voltar"></a>
+
+            <img src="./src/Imagens/LogoMarrom.jpg (1).png" alt="LogoMarrom">
+
+
+
+
+            <a href="unidade.html"><img class="setas" src="./src/Imagens/download (2).png" alt="seta para frente"></a>
+
+
+        </div>
+    </header>
+    <div class="content">
+        <div class="galery1">
+            <div id="ft1" class="quadros"></div>
+            <div id="ft2" class="quadros"></div>
+        </div>
+
+        <div class="history">
+            <h1>regali della cucina</h1>
+            <h4>Restaurante Italiano</h4>
+            <h4>Serviamo bene per servire</h4>
+            <p>Criamos o Bendita Itália em maio de 2023, com o intuito de trazer o melhor da culinaria italiana para o paladar de todos, pois sabiamos que uma boa comida italiana estava restrita a restaurantes de classe alta, onde somente pessoas com alto poder aquisitivo poderiam consumi-lo</p>
+            <p>Pensando nisso criamos para que todos pudessem ter acesso trazendo os melhores ingredientes sem ter um preço alto. Trazemos a cozinha tradicional com muito tempero, sabor e amor.</p>
+        </div>
+        <div class="galery2">
+            <div id="ft3" class="quadros"></div>
+            <div id="ft4" class="quadros"></div>
+        </div>
+    </div>
+</body>
+
+</html>
